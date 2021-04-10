@@ -1,0 +1,784 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header nav ul{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    margin-left: auto;
+    top: 20px;
+
+}
+
+header nav ul{
+    list-style-type: none;
+}
+header nav li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+main {
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+main .input{
+    margin-top: 15px;
+    margin-left: 23em;
+    height: 50px;
+    width: 600px;
+    background-color: white;
+    border-radius: 2rem;
+    border: 1px solid grey;
+}
+
+
+main img.search{
+    position: relative;
+    top: -95px;
+    left: -19.5em;
+}
+
+main img.microphone{
+    position: relative;
+    top: -65px;
+    left: 18em;
+}
+
+
+main input{
+    position: initial;
+    padding: 15px;
+    min-width: 550px;
+    border: none;
+    border-radius: 2rem;
+    z-index: 2;
+    height: 47px;
+}
+
+
+main aside{
+    position: relative;
+    top: 40px;
+}
+
+main aside .btn_google{
+    padding: 15px;
+    border: none;
+}
+
+main aside .btn_lucky{
+    padding: 15px;
+    border: none;
+}
+
+.language{
+    position: inherit;
+    top: 60px;
+}
+
+.language a{
+    text-decoration: none;
+    color: rgb(50, 50, 158);
+    font-size: 16px;
+}
+
+footer{
+    position: relative;
+    bottom: -18em;
+    background-color: rgb(245, 243, 243);
+    min-height: 100px;
+    color: grey;
+}
+
+footer p{
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.footer_links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.footer_links .left, .footer_links .right{
+    display: inline-flex;
+}
+
+.footer_links .left , .footer_links .middle,.footer_links .right{
+    list-style-type: none;
+}
+
+footer li a{
+    display: inherit;
+    top: 5px;
+    padding: 15px;
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+
+
+/* media queries */
+
+/* extra large devices*/
+@media(max-width: 1200px){
+        
+    header nav ul{
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        width: 20%;
+        margin-left: 50em;
+        top: 20px;
+
+    }
+
+    header nav ul{
+        list-style-type: none;
+    }
+    header nav li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+    }
+
+    main {
+        position: relative;
+        top: 70px;
+        text-align: center;
+    }
+
+    main .logo{
+        position: relative;
+        top: 100px;
+        left: -5em;
+    }
+
+    main .input{
+        margin-top: 115px;
+        margin-left: 15em;
+        height: 50px;
+        width: 600px;
+        background-color: white;
+        border-radius: 2rem;
+        border: 1px solid grey;
+    }
+
+
+    main img.search{
+        position: relative;
+        top: -95px;
+        left: -19.5em;
+    }
+
+    main img.microphone{
+        position: relative;
+        top: -65px;
+        left: 18em;
+    }
+
+
+    main input{
+        position: initial;
+        padding: 15px;
+        min-width: 550px;
+        border: none;
+        border-radius: 2rem;
+        z-index: 2;
+        height: 47px;
+    }
+
+
+    main aside{
+        position: relative;
+        top: 40px;
+    }
+
+    main aside .btn_google{
+        padding: 15px;
+        border: none;
+        position: relative;
+        left: -100px;
+        cursor: pointer;
+    }
+
+    main aside .btn_lucky{
+        padding: 15px;
+        border: none;
+        position: relative;
+        left: -30px;
+        cursor: pointer;
+    }
+
+    .language{
+        position: inherit;
+        top: 60px;
+        left: -70px;
+    }
+
+    .language a{
+        text-decoration: none;
+        color: rgb(50, 50, 158);
+        font-size: 16px;
+    }
+
+    footer{
+        position: relative;
+        bottom: -46em;
+        background-color: rgb(245, 243, 243);
+        min-height: 130px;
+        color: grey;
+    }
+
+    footer p{
+        font-size: 20px;
+        margin-left: 20px;
+        padding: 20px;
+    }
+
+    .footer_links{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .footer_links .left, .footer_links .right{
+        display: inline-flex;
+    }
+
+    .footer_links .left , .footer_links .middle,.footer_links .right{
+        list-style-type: none;
+    }
+    
+    .footer_links .middle{
+        position: relative;
+        top: -3px;
+        left: -100px;
+    }
+    
+    .footer_links .left, .footer_links .right{
+        position: relative;
+        top: 30px;
+    }
+
+    .footer_links .left{
+        left: 50px;
+    } 
+    
+    .footer_links .right{
+        left: -190px;
+    }
+
+    footer li a{
+        display: inherit;
+        top: 5px;
+        padding: 15px;
+        text-decoration: none;
+        color: grey;
+        font-size: 14px;
+    }    
+
+}
+
+/* laptop */
+@media(max-width:992px){    
+    
+    header nav ul{
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        width: 20%;
+        margin-left: 40em;
+        top: 20px;
+
+    }
+
+    header nav ul{
+        list-style-type: none;
+    }
+    header nav li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+    }
+
+    main {
+        position: relative;
+        top: 70px;
+        text-align: center;
+    }
+
+    main .logo{
+        position: relative;
+        top: 50px;
+        left: -50px;
+    }
+
+    main .input{
+        margin-top: 75px;
+        margin-left: 9em;
+        height: 50px;
+        width: 600px;
+        background-color: white;
+        border-radius: 2rem;
+        border: 1px solid grey;
+    }
+
+
+    main img.search{
+        position: relative;
+        top: -95px;
+        left: -19.5em;
+    }
+
+    main img.microphone{
+        position: relative;
+        top: -65px;
+        left: 18em;
+    }
+
+
+    main input{
+        position: initial;
+        padding: 15px;
+        min-width: 550px;
+        border: none;
+        border-radius: 2rem;
+        z-index: 2;
+        height: 47px;
+    }
+
+
+    main aside{
+        position: relative;
+        top: 40px;
+    }
+
+    main aside .btn_google{
+        padding: 15px;
+        border: none; 
+        position: relative;
+        left: -100px;
+        cursor: pointer;
+    }
+
+    main aside .btn_lucky{
+        padding: 15px;
+        border: none;
+        position: relative;
+        left: 10px;
+        cursor: pointer;
+    }
+
+    .language{
+        position: inherit;
+        top: 70px;
+        left: -50px;
+    }
+
+    .language a{
+        text-decoration: none;
+        color: rgb(50, 50, 158);
+        font-size: 16px;
+    }
+
+    footer{
+        position: relative;
+        bottom: -47em;
+        background-color: rgb(245, 243, 243);
+        min-height: 150px;
+        color: grey;
+    }
+
+    footer p{
+        font-size: 18px;
+        margin-left: 20px;
+        padding: 20px;
+    }
+
+    .footer_links{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .footer_links .left, .footer_links .right{
+        display: inline-flex;
+    }
+
+    .footer_links .left , .footer_links .middle,.footer_links .right{
+        list-style-type: none;
+    }
+
+    .footer_links .middle{
+        position: relative;
+        top: -3px;
+        left: -100px;
+    }
+    
+    .footer_links .left, .footer_links .right{
+        position: relative;
+        top: 30px;
+    }
+
+    .footer_links .left{
+        left: 50px;
+    } 
+    
+    .footer_links .right{
+        left: -150px;
+    }
+
+    footer li a{
+        display: inherit;
+        top: 5px;
+        padding: 15px;
+        text-decoration: none;
+        color: grey;
+        font-size: 14px;
+    }
+
+}
+
+/* tablet */
+@media(max-width:768px){
+    *
+    header nav ul{
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        width: 20%;
+        margin-left: 30em;
+        top: 20px;
+
+    }
+
+    header nav ul{
+        list-style-type: none;
+    }
+    header nav li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+    }
+
+    main {
+        position: relative;
+        top: 70px;
+        text-align: center;
+    }
+
+    main .logo{
+        position: relative;
+        top: 40px;
+        left: -60px;
+    }
+
+    main .logo img{
+        width: 250px;
+    }
+
+    main .input{
+        margin-top: 55px;
+        margin-left: 2em;
+        height: 50px;
+        width: 600px;
+        background-color: white;
+        border-radius: 2rem;
+        border: 1px solid grey;
+    }
+
+
+    main img.search{
+        position: relative;
+        top: -95px;
+        left: -19.5em;
+    }
+
+    main img.microphone{
+        position: relative;
+        top: -65px;
+        left: 18em;
+    }
+
+
+    main input{
+        position: initial;
+        padding: 15px;
+        min-width: 550px;
+        border: none;
+        border-radius: 2rem;
+        z-index: 2;
+        height: 47px;
+    }
+
+
+    main aside{
+        position: relative;
+        top: 40px;
+    }
+
+    main aside .btn_google{
+        padding: 15px;
+        border: none;
+        position: relative;
+        left: -80px;
+        cursor: pointer;
+
+    }
+
+    main aside .btn_lucky{
+        padding: 15px;
+        border: none;
+        position: relative;
+        left: 5px;
+        cursor: pointer;
+    }
+
+    .language{
+        position: inherit;
+        top: 70px;
+        left: -40px;
+    }
+
+    .language a{
+        text-decoration: none;
+        color: rgb(50, 50, 158);
+        font-size: 16px;
+    }
+
+    footer{
+        position: relative;
+        bottom: -56em;
+        background-color: rgb(245, 243, 243);
+        min-height: 150px;
+        color: grey;
+    }
+
+    footer p{
+        font-size: 14px;
+        margin-left: 20px;
+        padding: 20px;
+    }
+
+    .footer_links{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .footer_links .left, .footer_links .right{
+        display: inline-flex;
+    }
+
+    .footer_links .left , .footer_links .middle,.footer_links .right{
+        list-style-type: none;
+    }    
+    
+    .footer_links .middle{
+        position: relative;
+        top: -3px;
+        left: -12px;
+    }
+    
+    .footer_links .left, .footer_links .right{
+        position: relative;
+        top: 30px;
+    }
+
+    .footer_links .left{
+        left: 40px;
+    } 
+    
+    .footer_links .right{
+        left: -40px;
+    }
+
+    footer li a{
+        display: inherit;
+        top: 5px;
+        padding: 15px;
+        text-decoration: none;
+        color: grey;
+        font-size: 14px;
+    }
+    
+}
+
+
+/* mobile */
+@media(max-width: 600px){
+
+    header nav ul{
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        width: 20%;
+        margin-left: 25em;
+        top: 20px;
+    }
+    
+    header nav ul{
+        list-style-type: none;
+    }
+    header nav li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 5px;
+        padding: 10px;
+    }
+    
+    main {
+        position: relative;
+        top: 70px;
+        text-align: center;
+    }
+
+    main .logo {
+        position: inherit;
+        top: 50px;
+        margin-left: 3em;
+    }
+    main .logo img {
+        width: 150px;
+    }
+    
+    main .input{
+        margin-top: 70px;
+        margin-left: 6em;
+        height: 34px;
+        width: 380px;
+        background-color: white;
+        border-radius: 2rem;
+        border: 1px solid grey;
+    }
+    
+    
+    main img.search{
+        position: relative;
+        top: -85px;
+        left: -12.7em;
+    }
+    
+    main img.microphone{
+        position: relative;
+        top: -57px;
+        left: 11.4em;
+    }
+    
+    
+    main input{
+        position: initial;
+        padding: 15px;
+        min-width: 350px;
+        border: none;
+        border-radius: 2rem;
+        z-index: 2;
+        height: 15px;
+    }
+    
+    
+    main aside{
+        position: relative;
+        top: 20px;
+        left: 60px;
+        display: flex;
+    }
+    
+    main aside .btn_google{
+        padding: 10px;
+        border: none;
+        margin-left: 25em;
+        font-size: 8px;
+        cursor: pointer;
+    }
+    
+    main aside .btn_lucky{
+        padding: 10px;
+        border: none;
+        margin-left: -5em;
+        font-size: 8px;
+        cursor: pointer;
+    }
+    
+    .language{
+        position: inherit;
+        top: 40px;
+        font-size: 12px;
+        left: -20px;
+    }
+    
+    .language a{
+        text-decoration: none;
+        color: rgb(50, 50, 158);
+        font-size: 12px;
+    }
+    
+    footer{
+        position: relative;
+        bottom: -63em;
+        background-color: rgb(245, 243, 243);
+        height: 150px;
+        color: grey;
+        max-width: 600px;
+    }
+    
+    footer p{
+        font-size: 10px;
+        margin-left: 20px;
+        padding: 20px;
+    }
+    
+    .footer_links{
+        display: flex;
+        list-style: none;
+    }
+    
+    .footer_links .left, .footer_links .right{
+        display: inline-flex;
+    }
+    
+    .footer_links .left , .footer_links .middle,.footer_links .right{
+        list-style-type: none;
+    }
+    
+    .footer_links .middle{
+        position: relative;
+        top: -3px;
+        left: -12px;
+    }
+    
+    .footer_links .left, .footer_links .right{
+        position: relative;
+        top: 30px;
+    }
+
+    .footer_links .left{
+        left: 40px;
+    } 
+    
+    .footer_links .right{
+        left: -40px;
+    }
+
+    footer li a{
+        display: inherit;
+        top: 5px;
+        padding: 15px;
+        text-decoration: none;
+        color: grey;
+        font-size: 10px;
+    }
+    
+}
