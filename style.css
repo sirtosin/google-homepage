@@ -139,7 +139,7 @@ footer li a{
         display: flex;
         justify-content: space-evenly;
         width: 20%;
-        margin-left: 50em;
+        margin-left: 45em;
         top: 20px;
 
     }
@@ -235,7 +235,7 @@ footer li a{
 
     footer{
         position: relative;
-        bottom: -21.8em;
+        bottom: -32.8em;
         background-color: rgb(245, 243, 243);
         min-height: 130px;
         color: grey;
@@ -395,7 +395,7 @@ footer li a{
 
     footer{
         position: relative;
-        bottom: -24em;
+        bottom: -34em;
         background-color: rgb(245, 243, 243);
         min-height: 150px;
         color: grey;
@@ -560,7 +560,7 @@ footer li a{
 
     footer{
         position: relative;
-        bottom: -20em;
+        bottom: -31em;
         background-color: rgb(245, 243, 243);
         min-height: 150px;
         color: grey;
@@ -727,7 +727,7 @@ footer li a{
     
     footer{
         position: relative;
-        bottom: -35em;
+        bottom: -47em;
         background-color: rgb(245, 243, 243);
         height: 150px;
         color: grey;
@@ -893,7 +893,7 @@ footer li a{
     
     footer{
         position: relative;
-        bottom: -35em;
+        bottom: -49em;
         background-color: rgb(245, 243, 243);
         height: 150px;
         color: grey;
