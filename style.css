@@ -62,6 +62,7 @@ main input{
     border-radius: 2rem;
     z-index: 2;
     height: 47px;
+    outline: none;
 }
 
 
